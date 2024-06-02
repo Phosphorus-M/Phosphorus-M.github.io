@@ -357,3 +357,12 @@ section.profile-card {
         }
     }
 }
+
+
+.tech-container{
+    @apply md:w-1/5  flex items-center justify-center p-2;
+}
+
+.tech-item{
+    @apply w-36 p-4 bg-white shadow-md flex flex-col items-center justify-center rounded-lg shadow-gray-600 border-2 gap-2; 
+}
